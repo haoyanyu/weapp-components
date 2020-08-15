@@ -1,0 +1,50 @@
+.bar {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 99999
+}
+
+.bar--fixed {
+  position: fixed
+}
+
+.bar__title {
+  line-height: 44px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #fff;
+  width: 100%
+}
+
+.bar__title .title_content {
+  display: inline-block;
+  width: 300rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis
+}
+
+.bar__content {
+  line-height: 44px;
+  height: 44px;
+  font-size: 14px;
+  text-align: center;
+  width: 100%
+}
+
+.bar__back {
+  position: absolute;
+  left: 10px;
+  z-index: 1000;
+  font-size: 42rpx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}

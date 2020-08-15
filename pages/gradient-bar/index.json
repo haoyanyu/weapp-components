@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#ff4444",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "gradient-bar": "./gradient-bar/index"
+  },
+  "enablePullDownRefresh": true
+}

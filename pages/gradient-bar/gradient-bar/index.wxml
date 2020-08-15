@@ -1,0 +1,17 @@
+<view
+	wx:if="{{ showBar }}"
+	class="grident-bar bar {{ sticky ? '' : 'bar--fixed' }}">
+	<view
+		wx:if="{{ title }}"
+		class="bar__title"
+		style="padding-top: {{ top }}px;opacity: {{ opacity }};color: {{ textColor }}">
+		<text class="title_content">{{ title }}</text>
+	</view>
+	<van-icon
+		wx:if="{{ showBack }}"
+		bind:click="onClickBack"
+		class="bar__back"
+		style="top: {{ top + 12 }}px;"
+    name="arrow-left"
+  />
+</view>
