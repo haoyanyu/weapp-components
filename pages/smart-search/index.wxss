@@ -1,0 +1,11 @@
+/* pages/smart-search/index.wxss */
+.goods-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.goods-card {
+  width: 40%;
+  margin: 24rpx;
+}

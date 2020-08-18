@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#ff4444",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "default",
+  "navigationBarTitleText": "瀑布流",
+  "enablePullDownRefresh": true
+}

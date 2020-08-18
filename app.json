@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/smart-search/index",
+    "pages/layout/index",
     "pages/gradient-bar/index",
     "pages/index/index",
     "pages/logs/logs"

@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "smart-search": "./smart-search/index"
+  }
+}

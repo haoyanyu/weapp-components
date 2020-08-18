@@ -1,0 +1,33 @@
+<view>
+  <view class="layout-column">
+    <view wx:for="{{list}}" wx:index="index" wx:item="item" wx:key="index" class="card">
+      <view>
+        <text class="card-title">卡片{{index + 1}}</text>
+        <view class="card-img">我是一张图</view>
+        <text class="card-name">卡片内容内容很多内容</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="layout-flex">
+<view>
+  <view wx:for="{{list1}}" wx:index="index" wx:item="item" wx:key="index" class="card-flex">
+      <view>
+        <text class="card-title">卡片{{index + 1}}</text>
+        <view class="card-img">我是一张图</view>
+        <text class="card-name">卡片内容内容很多内容</text>
+      </view>
+    </view>
+</view>
+  <view>
+    <view wx:for="{{list2}}" wx:index="index" wx:item="item" wx:key="index" class="card-flex">
+      <view>
+        <text class="card-title">卡片{{index + 1}}</text>
+        <view class="card-img">我是一张图</view>
+        <text class="card-name">卡片内容内容很多内容</text>
+      </view>
+    </view>
+  </view>
+    
+</view>

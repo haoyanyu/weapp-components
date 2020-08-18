@@ -1,0 +1,71 @@
+<view>
+  <!-- 搜索框 -->
+  <view class="top van-hairline--bottom">
+    <view class="search">
+      <van-icon class="icon" name="search" />
+      <input
+        placeholder-style="color: #c8c9cc;"
+        bindconfirm="handleKeyWordSearch"
+        class="input"
+        placeholder="请输入搜索关键词"
+        value="{{ keyWord }}"
+        confirm-type="search"
+        bindinput="handleKeyWordChange"
+        bindfocus="handleKeyWordFocus"
+        data-show="{{ true }}"
+        focus
+      />
+      <van-icon
+        name="clear"
+        bind:tap="handleClearKeyWord"
+        class="icon clear"
+        wx:if="{{ keyWord.length }}"
+      />
+    </view>
+    <view
+      data-show="{{ false }}"
+      class="cancel"
+      bind:tap="handleKeyWordFocus"
+      wx:if="{{ showCancel }}"
+    >
+      取消
+    </view>
+  </view>
+  <!-- 关键字列表 -->
+  <scroll-view
+    class="key-word-list"
+    wx:if="{{ showKeyWordList }}"
+    scroll-y="{{ true }}"
+  >
+    <view
+      class="key-word-item"
+      wx:for="{{ keywordsList }}"
+      bind:tap="handleKeyWordSearch"
+      data-key-word="{{ item }}"
+      wx:key="*this"
+    >
+      {{ item }}
+    </view>
+  </scroll-view>
+  <!-- 历史搜索记录 -->
+  <view
+    wx:if="{{ historyWords.length && showHistory }}"
+    class="history"
+  >
+    <view class="operate">
+      <text>历史搜索</text>
+      <van-icon class="icon" bind:tap="handleClearSearchHistory" name="delete" />
+    </view>
+    <view class="tag-list">
+      <view
+        bind:tap="handleKeyWordSearch"
+        data-key-word="{{ item }}"
+        wx:key="*this"
+        class="tag"
+        wx:for="{{ historyWords }}"
+      >
+        {{ item }}
+      </view>
+    </view>
+  </view>
+</view>

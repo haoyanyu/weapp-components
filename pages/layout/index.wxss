@@ -1,0 +1,44 @@
+.layout-column {
+  column-count: 2;
+  padding: 32rpx 16rpx;
+}
+.card {
+  break-inside: avoid;
+  border: 1rpx solid #dfdfdf;
+  padding: 16rpx;
+  margin: 16rpx;
+  border-radius: 6rpx;
+}
+
+.card-title,
+.card-name {
+  line-height: 2em;
+  color: #232323;
+  font-size: 32rpx;
+}
+
+.card-img {
+  height: 120rpx;
+  background: pink;
+  color: #eee;
+  text-align: center;
+  line-height: 120rpx;
+}
+
+.card-name {
+  font-size: 24rpx;
+}
+
+.layout-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 24rpx;
+}
+
+.card-flex {
+  border: 1rpx solid #dfdfdf;
+  padding: 16rpx;
+  border-radius: 6rpx;
+  margin: 16rpx 0;
+}

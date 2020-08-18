@@ -1,0 +1,92 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 16rpx 32rpx;
+  background: #fff;
+
+}
+.search {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  border: 0.5rpx solid #dcdee0;
+  border-radius: 34rpx;
+  height: 68rpx;
+  padding: 0 24rpx;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.input {
+  margin-left: 8rpx;
+  width: 100%;
+  font-size: 28rpx;
+}
+
+.icon {
+  font-size: 36rpx;
+  color: #999;
+}
+
+.clear {
+  color: #c9c8cb !important;
+}
+
+.cancel {
+  width: 100rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.key-word-list {
+  background: #fff;
+  height: 60vh;
+  padding: 0 32rpx 100rpx;
+}
+
+.key-word-item {
+  display: block;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 0.5rpx solid #edeff1;
+}
+
+.history {
+  padding: 0 32rpx;
+  /* 总高度减去搜索框的高度 */
+  height: calc(100vh - 100rpx);
+  background: #fff;
+
+}
+.operate {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40rpx;
+  font-weight: normal;
+  font-size: 30rpx;
+
+}
+
+.icon {
+  color: #97989b;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30rpx;
+
+}
+
+.tag {
+  margin: 0rpx 10rpx 20rpx 0rpx;
+  font-size: 28rpx;
+  height: 42rpx;
+  line-height: 42rpx;
+  padding: 0 20rpx;
+  background: #f2f2f5;
+  border-radius: 20rpx;
+  color: #6d6e70;
+}

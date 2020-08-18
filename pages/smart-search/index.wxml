@@ -1,0 +1,8 @@
+<view class="self-search">
+  <smart-search bind:submit="handleSubmit" bind:cancel="handleCancel" bind:focus="handleSearch"></smart-search>
+  <view class="goods-list" wx:if="{{showList}}">
+    <view wx:for="{{goodsList}}" wx:key="index" class="goods-card">
+      <text>商品列表</text>
+    </view>
+  </view>
+</view>
