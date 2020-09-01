@@ -1,12 +1,12 @@
 .layout-column {
   column-count: 2;
-  padding: 32rpx 16rpx;
+  padding: 32rpx;
 }
 .card {
-  break-inside: avoid;
+  /* break-inside: avoid; */
   border: 1rpx solid #dfdfdf;
   padding: 16rpx;
-  margin: 16rpx;
+  margin-bottom: 16rpx;
   border-radius: 6rpx;
 }
 
@@ -37,8 +37,11 @@
 }
 
 .card-flex {
-  border: 1rpx solid #dfdfdf;
-  padding: 16rpx;
-  border-radius: 6rpx;
-  margin: 16rpx 0;
+  width: 320rpx;
+  margin: 8rpx 0;
+}
+.image-item {
+  width: 100%;
+  vertical-align: top;
+  display: inline-block;
 }

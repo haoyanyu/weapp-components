@@ -1,16 +1,17 @@
 {
-  "pages":[
-    "pages/smart-search/index",
+  "pages": [
     "pages/layout/index",
+    "pages/canvas-gua/index",
+    "pages/smart-search/index",
     "pages/gradient-bar/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
