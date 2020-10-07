@@ -1,6 +1,7 @@
 <view
 	wx:if="{{ showBar }}"
 	class="grident-bar bar {{ sticky ? '' : 'bar--fixed' }}">
+	<!-- padding-top为了把手机显示时间的部分让出来 -->
 	<view
 		wx:if="{{ title }}"
 		class="bar__title"
