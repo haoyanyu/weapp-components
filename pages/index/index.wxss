@@ -19,3 +19,18 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.navigator-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: #232333;
+  margin-top: 24rpx;
+}
+
+.navigator-list navigator {
+  margin: 0 12rpx;
+  background: #eee;
+  border-radius: 4rpx;
+  padding: 8rpx 24rpx;
+}

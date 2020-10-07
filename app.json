@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/layout/index",
-    "pages/canvas-gua/index",
     "pages/smart-search/index",
     "pages/gradient-bar/index",
-    "pages/index/index",
-    "pages/logs/logs",
+    
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",

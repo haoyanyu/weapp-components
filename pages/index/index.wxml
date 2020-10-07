@@ -7,7 +7,9 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="navigator-list">
+    <navigator url="/pages/layout/index">瀑布流</navigator>
+    <navigator url="/pages/smart-search/index">商品搜索</navigator>
+    <navigator url="/pages/gradient-bar/index">自定义渐变导航</navigator>
   </view>
 </view>

@@ -1,6 +1,6 @@
 <view class="demo">
 <gradient-bar title="标题" showBackBtn opacity="{{opacity}}" sticky="{{fasle}}" />
 <view>
-  <view class="text" wx:for="{{list}}">很多文字</view>
+  <view class="text" wx:for="{{list}}" wx:key="index">很多文字</view>
 </view>
 </view>

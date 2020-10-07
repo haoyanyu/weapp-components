@@ -32,9 +32,9 @@ Component({
   attached() {
     const pages = getCurrentPages();
     const { showBackBtn } = this.data;
-
+    console.log('showBack', showBackBtn && pages && pages.length >= 1)
     this.setData({
-      showBack: showBackBtn && pages && pages.length > 1,
+      showBack: showBackBtn && pages && pages.length >= 1,
       top: statusBarHeight,
       showBar
     });
