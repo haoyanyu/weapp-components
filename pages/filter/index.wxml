@@ -1,0 +1,4 @@
+<!--pages/filter/index.wxml-->
+<view>
+  <my-filter bind:filterChange="handleChange"></my-filter>
+</view>

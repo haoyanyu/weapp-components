@@ -1,0 +1,34 @@
+<!-- filter组件在切换了筛选项之后，通过组件通讯filterChange方法，吐出当前选中的筛选项，也可以通过子组件的getFilterInfo方法获取筛选项 -->
+<view>
+  <view class="filter van-hairline--bottom">
+    <text
+      class="complex {{ orderBy === 'complex' ? 'active-order' : '' }}"
+      data-key="complex"
+      bind:tap="onFilterChange"
+    >综合</text>
+    <view
+      bind:tap="onFilterChange"
+      class="price {{ orderBy === 'price' ? 'active-order' : '' }}"
+      data-key="price"
+    >
+      价格
+      <view class="arrow">
+        <van-icon
+          wx:if="{{ order === '' || order === 'asc' }}"
+          name="arrow-up"
+          customStyle="font-weight: 700;"
+        />
+        <van-icon
+          wx:if="{{ order === '' || order === 'desc' }}"
+          name="arrow-down"
+          customStyle="font-weight: 700;"
+        />
+      </view>
+    </view>
+    <text
+      bind:tap="onFilterChange"
+      class="sales {{ orderBy === 'totalSoldNum' ? 'active-order' : '' }}"
+      data-key="totalSoldNum"
+    >销量</text>
+  </view>
+</view>

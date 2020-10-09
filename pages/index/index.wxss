@@ -25,7 +25,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   color: #232333;
-  margin-top: 24rpx;
+  
 }
 
 .navigator-list navigator {
@@ -33,4 +33,5 @@
   background: #eee;
   border-radius: 4rpx;
   padding: 8rpx 24rpx;
+  margin-top: 24rpx;
 }

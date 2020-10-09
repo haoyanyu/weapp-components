@@ -11,5 +11,6 @@
     <navigator url="/pages/layout/index">瀑布流</navigator>
     <navigator url="/pages/smart-search/index">商品搜索</navigator>
     <navigator url="/pages/gradient-bar/index">自定义渐变导航</navigator>
+    <navigator url="/pages/filter/index">商品筛选项</navigator>
   </view>
 </view>
