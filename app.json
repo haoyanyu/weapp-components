@@ -1,11 +1,12 @@
 {
   "pages": [
-    
+   
     "pages/index/index",
     "pages/layout/index",
     "pages/smart-search/index",
     "pages/gradient-bar/index",
     "pages/filter/index",
+    "pages/goto-top/index",
     "pages/logs/logs"
   ],
   "window": {

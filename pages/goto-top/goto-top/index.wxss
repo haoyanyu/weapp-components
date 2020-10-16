@@ -1,0 +1,22 @@
+/* pages/goto-top/goto-top/index.wxss */
+.go-top {
+  z-index: 9;
+  position: fixed;
+  right: 28rpx;
+  bottom: 70rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}

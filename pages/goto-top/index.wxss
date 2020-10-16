@@ -1,0 +1,19 @@
+/* pages/goto-top/index.wxss */
+@import './goto-top/index.wxss';
+
+.goto-top-page {
+  box-sizing: border-box;
+  background: #dfdfdf;
+  padding: 32rpx;
+}
+
+.text-box {
+  background: #fff;
+  border-radius: 4rpx;
+  box-shadow: -6rpx 6rpx 4rpx #ddd;
+}
+.text {
+  color: #323233;
+  line-height: 3em;
+  text-indent: 3em;
+}

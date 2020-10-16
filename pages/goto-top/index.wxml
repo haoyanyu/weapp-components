@@ -1,0 +1,8 @@
+<!--pages/goto-top/index.wxml-->
+<import src="./goto-top/index" />
+<view class="goto-top-page">
+  <view class="text-box">
+    <view class="text" wx:for="{{list}}" wx:key="index">很多文字</view>
+  </view>
+  <template is="goto-top" data="{{visiable: goTopVisiable}}"></template>
+</view>
